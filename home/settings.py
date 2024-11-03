@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-qt_=#re(oo(gk5t8t%f)bp2(zdd+sa*=ev*kv112)a+4^5b_cf"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['Royaltechnic.com','manish.com','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
